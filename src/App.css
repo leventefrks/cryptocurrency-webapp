@@ -1,0 +1,32 @@
+
+.App{
+  background: url('./images/blurred-background1.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.cryptolist{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.cryptolist__item{
+  border-radius: 4px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.cryptolist__item__name{
+
+}
+
+.loading{
+  color: pink;
+}
